@@ -1,0 +1,11 @@
+﻿  main.cpp
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\main.cpp(16): fatal error C1083: Cannot open include file: 'gflags/gflags.h': No such file or directory
+  cnn.cpp
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\src\cnn.cpp(5): fatal error C1083: Cannot open include file: 'cnn.hpp': No such file or directory
+  image_grabber.cpp
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\src\image_grabber.cpp(5): fatal error C1083: Cannot open include file: 'image_grabber.hpp': No such file or directory
+  text_detection.cpp
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\src\text_detection.cpp(5): fatal error C1083: Cannot open include file: 'text_detection.hpp': No such file or directory
+  text_recognition.cpp
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\src\text_recognition.cpp(5): fatal error C1083: Cannot open include file: 'text_recognition.hpp': No such file or directory
+  Generating Code...

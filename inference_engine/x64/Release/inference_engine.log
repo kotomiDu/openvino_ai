@@ -1,0 +1,5 @@
+﻿     Creating library C:\Users\yarudu\Documents\project\openvino_ai\x64\Release\cpu_extension.lib and object C:\Users\yarudu\Documents\project\openvino_ai\x64\Release\cpu_extension.exp
+  Generating code
+  All 10147 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  inference_engine.vcxproj -> C:\Users\yarudu\Documents\project\openvino_ai\x64\Release\cpu_extension.dll

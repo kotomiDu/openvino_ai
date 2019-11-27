@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\cnn.cpp" />
+    <ClCompile Include="src\image_grabber.cpp" />
+    <ClCompile Include="src\text_detection.cpp" />
+    <ClCompile Include="src\text_recognition.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\cnn.hpp" />
+    <ClInclude Include="include\image_grabber.hpp" />
+    <ClInclude Include="include\text_detection.hpp" />
+    <ClInclude Include="include\text_recognition.hpp" />
+    <ClInclude Include="text_detection_demo.hpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{84929381-BCD3-4290-BF1E-EF652A466486}</ProjectGuid>
+    <RootNamespace>openvinoai</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>ocr</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)\inference_engine\external\tbb\include;$(SolutionDir)\inference_engine\src\extension;$(SolutionDir)\inference_engine\include;C:\Program Files (x86)\IntelSWTools\openvino\opencv\include;$(SolutionDir);$(SolutionDir)\external\common;$(SolutionDir)\openvino_ai\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_dnn412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_gapi412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_highgui412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_ml412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_objdetect412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_photo412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_stitching412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_video412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_videoio412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\include\..\..\deployment_tools\inference_engine\lib\intel64\Release\inference_engine.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\include\..\..\deployment_tools\inference_engine\lib\intel64\Release\tbb.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_imgcodecs412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_calib3d412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_features2d412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_flann412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_imgproc412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_core412.lib;$(SolutionDir)x64\Release\cpu_extension.lib;$(SolutionDir)x64\Release\gflags_nothreads_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)\inference_engine\external\tbb\include;$(SolutionDir)\inference_engine\src\extension;$(SolutionDir)\inference_engine\include;C:\Program Files (x86)\IntelSWTools\openvino\opencv\include;$(SolutionDir);$(SolutionDir)\external\common;$(ProjectDir)include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DiagnosticsFormat>Column</DiagnosticsFormat>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_dnn412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_gapi412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_highgui412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_ml412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_objdetect412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_photo412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_stitching412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_video412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_videoio412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\include\..\..\deployment_tools\inference_engine\lib\intel64\Release\inference_engine.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\include\..\..\deployment_tools\inference_engine\lib\intel64\Release\tbb.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_imgcodecs412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_calib3d412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_features2d412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_flann412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_imgproc412.lib;C:\Program Files (x86)\IntelSWTools\openvino\opencv\lib\opencv_core412.lib;..\x64\Release\cpu_extension.lib;..\x64\Release\gflags_nothreads_static.lib;-nodefaultlib:vcomp;shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

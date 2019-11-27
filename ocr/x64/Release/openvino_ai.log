@@ -1,0 +1,475 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (openvino_ai.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(127,27): warning C4251:  'InferenceEngine::BlockingDesc::blockedDims': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::BlockingDesc'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(127,27): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(127,27): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(127,27): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(127,27): warning C4251:         ]
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         with
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         [
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :             _Ty=size_t
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(129,23): warning C4251:  'InferenceEngine::BlockingDesc::strides': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::BlockingDesc'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(129,23): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(129,23): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(129,23): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(129,23): warning C4251:         ]
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         with
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         [
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :             _Ty=size_t
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(131,21): warning C4251:  'InferenceEngine::BlockingDesc::order': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::BlockingDesc'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(131,21): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(131,21): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(131,21): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(131,21): warning C4251:         ]
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         with
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         [
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :             _Ty=size_t
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(134,35): warning C4251:  'InferenceEngine::BlockingDesc::offsetPaddingToData': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::BlockingDesc'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(134,35): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(134,35): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(134,35): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(134,35): warning C4251:         ]
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         with
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         [
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :             _Ty=size_t
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(321,20): warning C4251:  'InferenceEngine::TensorDesc::dims': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::TensorDesc'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(321,20): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(321,20): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(321,20): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(321,20): warning C4251:         ]
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         with
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         [
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :             _Ty=size_t
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(325,24): warning C4251:  'InferenceEngine::TensorDesc::precision': class 'InferenceEngine::Precision' needs to have dll-interface to be used by clients of class 'InferenceEngine::TensorDesc'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_precision.hpp(19): message :  see declaration of 'InferenceEngine::Precision'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(363,21): warning C4251:  'InferenceEngine::LayoutOffsetCounter::_dims': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::LayoutOffsetCounter'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(363,21): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(363,21): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(363,21): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(363,21): warning C4251:         ]
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         with
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         [
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :             _Ty=size_t
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(371,21): warning C4251:  'InferenceEngine::LayoutOffsetCounter::_muls': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::LayoutOffsetCounter'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(371,21): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(371,21): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(371,21): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(371,21): warning C4251:         ]
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         with
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         [
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :             _Ty=size_t
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(34,24): warning C4251:  'InferenceEngine::Data::precision': class 'InferenceEngine::Precision' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_precision.hpp(19): message :  see declaration of 'InferenceEngine::Precision'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(46,20): warning C4251:  'InferenceEngine::Data::dims': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(46,20): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(46,20): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(46,20): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(46,20): warning C4251:         ]
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         with
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         [
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :             _Ty=size_t
+c:\program files (x86)\intelswtools\openvino\opencv\include\opencv2\core\mat.hpp(2685): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(52,33): warning C4251:  'InferenceEngine::Data::creatorLayer': class 'std::weak_ptr<InferenceEngine::CNNLayer>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(40): message :  see declaration of 'std::weak_ptr<InferenceEngine::CNNLayer>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(58,21): warning C4251:  'InferenceEngine::Data::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): message :  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65,47): warning C4251:  'InferenceEngine::Data::inputTo': class 'std::map<std::string,InferenceEngine::CNNLayerPtr,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65,47): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65,47): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65,47): warning C4251:             _Kty=cv::String,
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65,47): warning C4251:             _Ty=InferenceEngine::CNNLayerPtr
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65,47): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65): message :  see declaration of 'std::map<std::string,InferenceEngine::CNNLayerPtr,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65): message :             _Kty=cv::String,
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65): message :             _Ty=InferenceEngine::CNNLayerPtr
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56,42): warning C4251:  'InferenceEngine::QueryNetworkResult::supportedLayers': class 'std::set<std::string,std::less<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'InferenceEngine::QueryNetworkResult'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56,42): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56,42): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56,42): warning C4251:             _Kty=cv::String,
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56,42): warning C4251:             _Ty=std::string
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56,42): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56): message :  see declaration of 'std::set<std::string,std::less<_Kty>,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56): message :             _Kty=cv::String,
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56): message :             _Ty=std::string
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(63,58): warning C4251:  'InferenceEngine::QueryNetworkResult::supportedLayersMap': class 'std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of struct 'InferenceEngine::QueryNetworkResult'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(63,58): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(63,58): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(63,58): warning C4251:             _Kty=cv::String,
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(63,58): warning C4251:             _Ty=std::string
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(63,58): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layers.h(517): message :  see declaration of 'std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layers.h(517): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layers.h(517): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layers.h(517): message :             _Kty=cv::String,
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layers.h(517): message :             _Ty=std::string
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layers.h(517): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_ihetero_plugin.hpp(126,112): warning C4275:  non dll-interface class 'InferenceEngine::IInferencePlugin' used as base for dll-interface class 'InferenceEngine::IHeteroInferencePlugin'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(109): message :  see declaration of 'InferenceEngine::IInferencePlugin'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_ihetero_plugin.hpp(126): message :  see declaration of 'InferenceEngine::IHeteroInferencePlugin'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin_dispatcher.hpp(64,40): warning C4251:  'InferenceEngine::PluginDispatcher::pluginDirs': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::PluginDispatcher'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin_dispatcher.hpp(64,40): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin_dispatcher.hpp(64,40): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin_dispatcher.hpp(64,40): warning C4251:             _Ty=std::string
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin_dispatcher.hpp(64,40): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\gflags\gflags.h(188): message :  see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\gflags\gflags.h(188): message :         with
+c:\users\yarudu\documents\project\openvino_ai\gflags\gflags.h(188): message :         [
+c:\users\yarudu\documents\project\openvino_ai\gflags\gflags.h(188): message :             _Ty=std::string
+c:\users\yarudu\documents\project\openvino_ai\gflags\gflags.h(188): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_core.hpp(27,32): warning C4251:  'InferenceEngine::Core::_impl': class 'std::shared_ptr<InferenceEngine::Core::Impl>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Core'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_core.hpp(27): message :  see declaration of 'std::shared_ptr<InferenceEngine::Core::Impl>'
+c:\users\yarudu\documents\project\openvino_ai\external\common\samples\common.hpp(451,66): warning C4267:  '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yarudu\documents\project\openvino_ai\external\common\samples\common.hpp(452,68): warning C4267:  '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yarudu\documents\project\openvino_ai\external\common\samples\common.hpp(454,74): warning C4267:  '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yarudu\documents\project\openvino_ai\external\common\samples\common.hpp(455,76): warning C4267:  '=': conversion from 'size_t' to 'int', possible loss of data
+  cnn.cpp
+c:\users\yarudu\documents\project\openvino_ai\external\common\samples\common.hpp(923,1): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(127,27): warning C4251:  'InferenceEngine::BlockingDesc::blockedDims': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::BlockingDesc'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(127,27): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(127,27): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(127,27): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(127,27): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(129,23): warning C4251:  'InferenceEngine::BlockingDesc::strides': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::BlockingDesc'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(129,23): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(129,23): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(129,23): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(129,23): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(131,21): warning C4251:  'InferenceEngine::BlockingDesc::order': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::BlockingDesc'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(131,21): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(131,21): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(131,21): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(131,21): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(134,35): warning C4251:  'InferenceEngine::BlockingDesc::offsetPaddingToData': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::BlockingDesc'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(134,35): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(134,35): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(134,35): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(134,35): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(321,20): warning C4251:  'InferenceEngine::TensorDesc::dims': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::TensorDesc'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(321,20): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(321,20): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(321,20): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(321,20): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(325,24): warning C4251:  'InferenceEngine::TensorDesc::precision': class 'InferenceEngine::Precision' needs to have dll-interface to be used by clients of class 'InferenceEngine::TensorDesc'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_precision.hpp(19): message :  see declaration of 'InferenceEngine::Precision'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(363,21): warning C4251:  'InferenceEngine::LayoutOffsetCounter::_dims': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::LayoutOffsetCounter'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(363,21): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(363,21): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(363,21): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(363,21): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(371,21): warning C4251:  'InferenceEngine::LayoutOffsetCounter::_muls': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::LayoutOffsetCounter'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(371,21): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(371,21): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(371,21): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(371,21): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(34,24): warning C4251:  'InferenceEngine::Data::precision': class 'InferenceEngine::Precision' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_precision.hpp(19): message :  see declaration of 'InferenceEngine::Precision'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(46,20): warning C4251:  'InferenceEngine::Data::dims': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(46,20): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(46,20): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(46,20): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(46,20): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(52,33): warning C4251:  'InferenceEngine::Data::creatorLayer': class 'std::weak_ptr<InferenceEngine::CNNLayer>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(40): message :  see declaration of 'std::weak_ptr<InferenceEngine::CNNLayer>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(58,21): warning C4251:  'InferenceEngine::Data::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): message :  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65,47): warning C4251:  'InferenceEngine::Data::inputTo': class 'std::map<std::string,InferenceEngine::CNNLayerPtr,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65,47): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65,47): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65,47): warning C4251:             _Kty=std::string,
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65,47): warning C4251:             _Ty=InferenceEngine::CNNLayerPtr
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65,47): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65): message :  see declaration of 'std::map<std::string,InferenceEngine::CNNLayerPtr,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65): message :             _Kty=std::string,
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65): message :             _Ty=InferenceEngine::CNNLayerPtr
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56,42): warning C4251:  'InferenceEngine::QueryNetworkResult::supportedLayers': class 'std::set<std::string,std::less<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'InferenceEngine::QueryNetworkResult'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56,42): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56,42): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56,42): warning C4251:             _Kty=std::string,
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56,42): warning C4251:             _Ty=std::string
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56,42): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56): message :  see declaration of 'std::set<std::string,std::less<_Kty>,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56): message :             _Kty=std::string,
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56): message :             _Ty=std::string
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(63,58): warning C4251:  'InferenceEngine::QueryNetworkResult::supportedLayersMap': class 'std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of struct 'InferenceEngine::QueryNetworkResult'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(63,58): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(63,58): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(63,58): warning C4251:             _Kty=std::string,
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(63,58): warning C4251:             _Ty=std::string
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(63,58): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layers.h(517): message :  see declaration of 'std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layers.h(517): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layers.h(517): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layers.h(517): message :             _Kty=std::string,
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layers.h(517): message :             _Ty=std::string
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layers.h(517): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_ihetero_plugin.hpp(126,112): warning C4275:  non dll-interface class 'InferenceEngine::IInferencePlugin' used as base for dll-interface class 'InferenceEngine::IHeteroInferencePlugin'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(109): message :  see declaration of 'InferenceEngine::IInferencePlugin'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_ihetero_plugin.hpp(126): message :  see declaration of 'InferenceEngine::IHeteroInferencePlugin'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin_dispatcher.hpp(64,40): warning C4251:  'InferenceEngine::PluginDispatcher::pluginDirs': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::PluginDispatcher'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin_dispatcher.hpp(64,40): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin_dispatcher.hpp(64,40): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin_dispatcher.hpp(64,40): warning C4251:             _Ty=std::string
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin_dispatcher.hpp(64,40): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_device.hpp(145): message :  see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_device.hpp(145): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_device.hpp(145): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_device.hpp(145): message :             _Ty=std::string
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_device.hpp(145): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_core.hpp(27,32): warning C4251:  'InferenceEngine::Core::_impl': class 'std::shared_ptr<InferenceEngine::Core::Impl>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Core'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_core.hpp(27): message :  see declaration of 'std::shared_ptr<InferenceEngine::Core::Impl>'
+c:\users\yarudu\documents\project\openvino_ai\external\common\samples\common.hpp(451,66): warning C4267:  '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yarudu\documents\project\openvino_ai\external\common\samples\common.hpp(452,68): warning C4267:  '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yarudu\documents\project\openvino_ai\external\common\samples\common.hpp(454,74): warning C4267:  '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yarudu\documents\project\openvino_ai\external\common\samples\common.hpp(455,76): warning C4267:  '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yarudu\documents\project\openvino_ai\external\common\samples\common.hpp(923,1): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\src\cnn.cpp(54,57): warning C4267:  '=': conversion from 'size_t' to 'int', possible loss of data
+  image_grabber.cpp
+  text_detection.cpp
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\src\cnn.cpp(55,110): warning C4267:  'argument': conversion from 'size_t' to '_Tp', possible loss of data
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\src\cnn.cpp(55,110): warning C4267:         with
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\src\cnn.cpp(55,110): warning C4267:         [
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\src\cnn.cpp(55,110): warning C4267:             _Tp=int
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\src\cnn.cpp(55,110): warning C4267:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(127,27): warning C4251:  'InferenceEngine::BlockingDesc::blockedDims': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::BlockingDesc'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(127,27): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(127,27): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(127,27): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(127,27): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(129,23): warning C4251:  'InferenceEngine::BlockingDesc::strides': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::BlockingDesc'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(129,23): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(129,23): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(129,23): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(129,23): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(131,21): warning C4251:  'InferenceEngine::BlockingDesc::order': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::BlockingDesc'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(131,21): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(131,21): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(131,21): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(131,21): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(134,35): warning C4251:  'InferenceEngine::BlockingDesc::offsetPaddingToData': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::BlockingDesc'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(134,35): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(134,35): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(134,35): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(134,35): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(321,20): warning C4251:  'InferenceEngine::TensorDesc::dims': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::TensorDesc'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(321,20): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(321,20): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(321,20): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(321,20): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(325,24): warning C4251:  'InferenceEngine::TensorDesc::precision': class 'InferenceEngine::Precision' needs to have dll-interface to be used by clients of class 'InferenceEngine::TensorDesc'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_precision.hpp(19): message :  see declaration of 'InferenceEngine::Precision'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(363,21): warning C4251:  'InferenceEngine::LayoutOffsetCounter::_dims': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::LayoutOffsetCounter'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(363,21): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(363,21): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(363,21): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(363,21): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(371,21): warning C4251:  'InferenceEngine::LayoutOffsetCounter::_muls': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::LayoutOffsetCounter'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(371,21): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(371,21): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(371,21): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layouts.h(371,21): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(34,24): warning C4251:  'InferenceEngine::Data::precision': class 'InferenceEngine::Precision' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_precision.hpp(19): message :  see declaration of 'InferenceEngine::Precision'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(46,20): warning C4251:  'InferenceEngine::Data::dims': class 'std::vector<size_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(46,20): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(46,20): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(46,20): warning C4251:             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(46,20): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :  see declaration of 'std::vector<size_t,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :             _Ty=size_t
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(26): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(52,33): warning C4251:  'InferenceEngine::Data::creatorLayer': class 'std::weak_ptr<InferenceEngine::CNNLayer>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_common.h(40): message :  see declaration of 'std::weak_ptr<InferenceEngine::CNNLayer>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(58,21): warning C4251:  'InferenceEngine::Data::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): message :  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65,47): warning C4251:  'InferenceEngine::Data::inputTo': class 'std::map<std::string,InferenceEngine::CNNLayerPtr,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Data'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65,47): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65,47): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65,47): warning C4251:             _Kty=std::string,
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65,47): warning C4251:             _Ty=InferenceEngine::CNNLayerPtr
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65,47): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65): message :  see declaration of 'std::map<std::string,InferenceEngine::CNNLayerPtr,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65): message :             _Kty=std::string,
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65): message :             _Ty=InferenceEngine::CNNLayerPtr
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_data.h(65): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56,42): warning C4251:  'InferenceEngine::QueryNetworkResult::supportedLayers': class 'std::set<std::string,std::less<_Kty>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'InferenceEngine::QueryNetworkResult'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56,42): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56,42): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56,42): warning C4251:             _Kty=std::string,
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56,42): warning C4251:             _Ty=std::string
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56,42): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56): message :  see declaration of 'std::set<std::string,std::less<_Kty>,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56): message :             _Kty=std::string,
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56): message :             _Ty=std::string
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(56): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(63,58): warning C4251:  'InferenceEngine::QueryNetworkResult::supportedLayersMap': class 'std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of struct 'InferenceEngine::QueryNetworkResult'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(63,58): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(63,58): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(63,58): warning C4251:             _Kty=std::string,
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(63,58): warning C4251:             _Ty=std::string
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(63,58): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layers.h(517): message :  see declaration of 'std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layers.h(517): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layers.h(517): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layers.h(517): message :             _Kty=std::string,
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layers.h(517): message :             _Ty=std::string
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_layers.h(517): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_ihetero_plugin.hpp(126,112): warning C4275:  non dll-interface class 'InferenceEngine::IInferencePlugin' used as base for dll-interface class 'InferenceEngine::IHeteroInferencePlugin'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin.hpp(109): message :  see declaration of 'InferenceEngine::IInferencePlugin'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_ihetero_plugin.hpp(126): message :  see declaration of 'InferenceEngine::IHeteroInferencePlugin'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin_dispatcher.hpp(64,40): warning C4251:  'InferenceEngine::PluginDispatcher::pluginDirs': class 'std::vector<std::string,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InferenceEngine::PluginDispatcher'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin_dispatcher.hpp(64,40): warning C4251:         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin_dispatcher.hpp(64,40): warning C4251:         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin_dispatcher.hpp(64,40): warning C4251:             _Ty=std::string
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_plugin_dispatcher.hpp(64,40): warning C4251:         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_device.hpp(145): message :  see declaration of 'std::vector<std::string,std::allocator<_Ty>>'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_device.hpp(145): message :         with
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_device.hpp(145): message :         [
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_device.hpp(145): message :             _Ty=std::string
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_device.hpp(145): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_core.hpp(27,32): warning C4251:  'InferenceEngine::Core::_impl': class 'std::shared_ptr<InferenceEngine::Core::Impl>' needs to have dll-interface to be used by clients of class 'InferenceEngine::Core'
+c:\users\yarudu\documents\project\openvino_ai\inference_engine\include\ie_core.hpp(27): message :  see declaration of 'std::shared_ptr<InferenceEngine::Core::Impl>'
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\src\text_detection.cpp(153,25): warning C4267:  'argument': conversion from 'size_t' to 'const int', possible loss of data
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory0(879,1): warning C4267:  'argument': conversion from 'size_t' to '_Tp', possible loss of data
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory0(879,1): warning C4267:         with
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory0(879,1): warning C4267:         [
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory0(879,1): warning C4267:             _Tp=int
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory0(879,1): warning C4267:         ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(900): message :  see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned __int64,unsigned __int64>(_Alloc &,_Objty *const ,unsigned __int64 &&,unsigned __int64 &&)' being compiled
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(900): message :         with
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(900): message :         [
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(900): message :             _Alloc=std::allocator<cv::Point>,
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(900): message :             _Ty=cv::Point_<int>,
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(900): message :             _Objty=cv::Point_<int>
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(900): message :         ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(902): message :  see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned __int64,unsigned __int64>(_Alloc &,_Objty *const ,unsigned __int64 &&,unsigned __int64 &&)' being compiled
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(902): message :         with
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(902): message :         [
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(902): message :             _Alloc=std::allocator<cv::Point>,
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(902): message :             _Ty=cv::Point_<int>,
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(902): message :             _Objty=cv::Point_<int>
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(902): message :         ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(916): message :  see reference to function template instantiation 'void std::vector<cv::Point,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<unsigned __int64,unsigned __int64>(unsigned __int64 &&,unsigned __int64 &&)' being compiled
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(916): message :         with
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(916): message :         [
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(916): message :             _Ty=cv::Point
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(916): message :         ]
+  text_recognition.cpp
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\src\text_detection.cpp(152): message :  see reference to function template instantiation 'void std::vector<cv::Point,std::allocator<_Ty>>::emplace_back<size_t,size_t>(size_t &&,size_t &&)' being compiled
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\src\text_detection.cpp(152): message :         with
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\src\text_detection.cpp(152): message :         [
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\src\text_detection.cpp(152): message :             _Ty=cv::Point
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\src\text_detection.cpp(152): message :         ]
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\src\text_recognition.cpp(35,46): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\yarudu\documents\project\openvino_ai\openvino_ai\src\text_recognition.cpp(35,46): warning C4267:  'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  Generating code
+  All 2934 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  openvino_ai.vcxproj -> C:\Users\yarudu\Documents\project\openvino_ai\x64\Release\ocr.exe

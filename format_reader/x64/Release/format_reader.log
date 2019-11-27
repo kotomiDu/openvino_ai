@@ -1,0 +1,16 @@
+﻿  bmp.cpp
+  format_reader.cpp
+  MnistUbyte.cpp
+  opencv_wraper.cpp
+c:\users\yarudu\documents\project\openvino_ai\format_reader\opencv_wraper.cpp(38): warning C4267: 'argument': conversion from 'size_t' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+     Creating library C:\Users\yarudu\Documents\project\openvino_ai\x64\Release\format_reader.lib and object C:\Users\yarudu\Documents\project\openvino_ai\x64\Release\format_reader.exp
+  Generating code
+  296 of 578 functions (51.2%) were compiled, the rest were copied from previous compilation.
+    241 functions were new in current compilation
+    35 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  format_reader.vcxproj -> C:\Users\yarudu\Documents\project\openvino_ai\x64\Release\format_reader.dll

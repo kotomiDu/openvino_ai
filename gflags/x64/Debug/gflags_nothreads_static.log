@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1879,5): warning : The referenced project 'C:\Users\yaoxinsh\Documents\Intel\OpenVINO\inference_engine_samples_build\ZERO_CHECK.vcxproj' does not exist.
+  gflags.cc
+  gflags_completions.cc
+  gflags_reporting.cc
+  windows_port.cc
+  Generating Code...
+  gflags_nothreads_static.vcxproj -> C:\Users\yarudu\Documents\project\openvino_ai\x64\Debug\gflags_nothreads_static.lib

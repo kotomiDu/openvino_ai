@@ -1,0 +1,7 @@
+﻿  bmp.cpp
+c:\users\yarudu\documents\project\openvino_ai\format_reader\bmp.h(13): fatal error C1083: Cannot open include file: 'format_reader.h': No such file or directory
+  format_reader.cpp
+c:\users\yarudu\documents\project\openvino_ai\format_reader\format_reader.cpp(6): fatal error C1083: Cannot open include file: 'format_reader.h': No such file or directory
+  MnistUbyte.cpp
+c:\users\yarudu\documents\project\openvino_ai\format_reader\mnistubyte.cpp(8): fatal error C1083: Cannot open include file: 'MnistUbyte.h': No such file or directory
+  Generating Code...

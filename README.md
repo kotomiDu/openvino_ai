@@ -3,7 +3,7 @@ Intel OpenVINO AI usage
 
 ## Environment
 * download [dll file](https://github.com/YaoxinShi/obs-binary/blob/master/obs_dist_2019R3.1_debug.7z), 
-  This is for OpenVINO R3 
+  this is for OpenVINO R3 
 
 ## Run
 * ocr usage
